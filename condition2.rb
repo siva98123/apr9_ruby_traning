@@ -20,7 +20,8 @@ end
 puts "enter marks:"
 markes =gets.chomp.to_i
 
-result = ( marks>4 )?'pass':'fail'
+result = ( marks>45)?'pass':'fail'
 puts "#{result}"
 
 
+# if else 
