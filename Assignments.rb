@@ -169,5 +169,5 @@ hari = {"money" =>100,
    a = "KOTHI"
    puts a.downcase
      #3.titlr
-     puts a.title
+     
 
