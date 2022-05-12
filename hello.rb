@@ -1,5 +1,10 @@
-h = Hash.new
-h[:a] = "A"
-h[:a] = "B"
-h.size               #=> 1
-puts h
+class Ruby
+	def initialize(*a)
+		@initialize =true
+	end
+	def initialize?
+		@initialize || false
+	end
+end
+obj = Ruby.new 
+Ruby.allocate.initialize? (2)

@@ -27,7 +27,7 @@ puts c.delete(3)               #delete
 puts B.delete_at (1)         #delete _at(index)
 puts B[2]                    #
 b1 = [1,2,3,4,5]
-#puts b1.delete_if{|item|block}
+ b1.delete_if{|item| item%2 ==0}
 
 #puts B.each_index
 #puts B.each_wi
